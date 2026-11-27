@@ -48,13 +48,9 @@ TP9DPBO2526C1/
 │       └── form_lowongan.html
 ├── dokumentasi/
 │   └── README.md
-├── mvp_db.sql
+├── db_mvp.sql
 └── README.md
 ```
-
-*Structur folder digenerate dari `ls -R` proyek asli. Termasuk `README.md`, folder `dokumentasi/`, file `mvp_db.sql`, dan folder `template/`.*
-
----
 
 ## 3. Desain dan Arsitektur
 
@@ -254,10 +250,6 @@ CREATE TABLE `lowongan` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 ```
-
-Data awal: 5 kandidat dan 4 lowongan. File `mvp_db.sql` menghapus kedua tabel terlebih dahulu agar import ulang selalu menghasilkan data yang konsisten.
-
----
 
 ## 8. Dokumentasi 
 
