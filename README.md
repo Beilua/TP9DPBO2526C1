@@ -260,3 +260,6 @@ Data awal: 5 kandidat dan 4 lowongan. File `mvp_db.sql` menghapus kedua tabel te
 ---
 
 ## 8. Dokumentasi 
+
+https://github.com/user-attachments/assets/141968c5-b3f3-453b-98a6-2dfd753ba811
+
