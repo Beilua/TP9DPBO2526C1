@@ -1,7 +1,7 @@
 <?php
 class DB {
     private string $host = "localhost";
-    private string $db_name = "mvp_kandidat_db";
+    private string $db_name = "db_mvp";
     private string $username = "root";
     private string $password = "";
     private ?PDO $conn = null;
@@ -9,7 +9,7 @@ class DB {
 
     public function __construct(
         string $host = "localhost",
-        string $db_name = "mvp_kandidat_db",
+        string $db_name = "db_mvp",
         string $username = "root",
         string $password = ""
     ) {

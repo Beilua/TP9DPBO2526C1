@@ -29,6 +29,7 @@
   </style>
 </head>
 <body>
+  <!-- container wrapper for kandidat form -->
   <div class="container">
     <div class="card">
       <h1>{{FORM_TITLE}}</h1>
@@ -37,31 +38,37 @@
         <input type="hidden" name="action" value="{{ACTION}}">
         <input type="hidden" name="id" value="{{ID}}">
 
+        <!-- form field: nama kandidat -->
         <div>
           <label for="nama">Nama Kandidat</label>
           <input id="nama" name="nama" type="text" placeholder="Nama lengkap kandidat" value="{{NAMA}}" required>
         </div>
 
+        <!-- form field: posisi dilamar -->
         <div>
           <label for="posisi">Posisi Dilamar</label>
           <input id="posisi" name="posisi" type="text" placeholder="Misal: Backend Developer" value="{{POSISI}}" required>
         </div>
 
+        <!-- form field: domisili -->
         <div>
           <label for="domisili">Domisili</label>
           <input id="domisili" name="domisili" type="text" placeholder="Misal: Bandung" value="{{DOMISILI}}" required>
         </div>
 
+        <!-- form field: skor tes -->
         <div>
           <label for="skorTes">Skor Tes (0-100)</label>
           <input id="skorTes" name="skorTes" type="number" min="0" max="100" step="1" value="{{SKOR_TES}}">
         </div>
 
+        <!-- form field: pengalaman kerja -->
         <div class="full">
           <label for="pengalamanTahun">Pengalaman Kerja (Tahun)</label>
           <input id="pengalamanTahun" name="pengalamanTahun" type="number" min="0" step="1" value="{{PENGALAMAN_TAHUN}}">
         </div>
 
+        <!-- action buttons -->
         <div class="full actions">
           <a href="index.php" class="btn btn-muted">Batal</a>
           <button type="submit" class="btn btn-primary">Simpan</button>
